@@ -51,3 +51,6 @@ Servirá para abordar os conceitos de um projeto no XCode e o ambiente de forma 
 ### 02 - BasicNavigation
 Contém o básico de navegação entre telas utilizando Segues. 
 Será apresentado o uso de IBOutlets e IBActions além da navegação utilizando Segues
+
+### 03 - UIView
+Contém os componentes de UI, como botões, labels, text views e etc
