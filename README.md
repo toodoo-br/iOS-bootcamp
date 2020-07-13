@@ -47,3 +47,7 @@ Contém a sintaxe e uma explicação semântica sobre a linguagem Swift, que ser
 ### 01 - LaunchScreen
 Contém as configurações iniciais, launchscreen e Main Storyboard
 Servirá para abordar os conceitos de um projeto no XCode e o ambiente de forma introdutória
+
+### 02 - BasicNavigation
+Contém o básico de navegação entre telas utilizando Segues. 
+Será apresentado o uso de IBOutlets e IBActions além da navegação utilizando Segues

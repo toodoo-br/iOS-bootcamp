@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Dm-un-kdF">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigator-->
+        <scene sceneID="JMK-yb-T7H">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Navigator" id="rJE-Eo-LGQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Jfe-PC-cxa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QgU-PL-M55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128" y="-288"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="iOSDevDive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TooDooMarca" translatesAutoresizingMaskIntoConstraints="NO" id="Wf5-D0-d4Y">
+                                <rect key="frame" x="60" y="94" width="255" height="55"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBj-fA-gvj">
+                                <rect key="frame" x="153.5" y="213" width="68" height="30"/>
+                                <state key="normal" title="Segue VC">
+                                    <color key="titleColor" red="0.0" green="0.91764705879999997" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSegueVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l4Q-4k-5bl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNJ-aU-sdy">
+                                <rect key="frame" x="140.5" y="275" width="94" height="30"/>
+                                <state key="normal" title="Segue Button">
+                                    <color key="titleColor" red="0.91764705879999997" green="0.0" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="COO-zN-ltP" kind="show" id="Srw-xu-RHO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xl2-Gq-YwA">
+                                <rect key="frame" x="166.5" y="608" width="42" height="30"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAbout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXH-V6-BZg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.035294117649999998" green="0.054901960780000002" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FBj-fA-gvj" firstAttribute="top" secondItem="Wf5-D0-d4Y" secondAttribute="bottom" constant="64" id="A7l-4z-WbH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xl2-Gq-YwA" secondAttribute="bottom" constant="29" id="Fft-D2-1de"/>
+                            <constraint firstItem="gNJ-aU-sdy" firstAttribute="top" secondItem="FBj-fA-gvj" secondAttribute="bottom" constant="32" id="G9n-OL-GLR"/>
+                            <constraint firstItem="FBj-fA-gvj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HCi-QK-kQI"/>
+                            <constraint firstItem="Wf5-D0-d4Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="HdH-0n-w9v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wf5-D0-d4Y" secondAttribute="trailing" constant="60" id="VNU-9A-KuN"/>
+                            <constraint firstItem="Xl2-Gq-YwA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cbJ-52-7Iz"/>
+                            <constraint firstItem="FBj-fA-gvj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="coc-lm-QQK"/>
+                            <constraint firstItem="Wf5-D0-d4Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="hQD-L1-wkN"/>
+                            <constraint firstItem="Wf5-D0-d4Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qEq-Pb-cRC"/>
+                            <constraint firstItem="gNJ-aU-sdy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w4t-dC-dMe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="qjG-ls-arx"/>
+                    <connections>
+                        <outlet property="buttonAbout" destination="Xl2-Gq-YwA" id="Xnx-lH-XyW"/>
+                        <outlet property="buttonSegueButton" destination="gNJ-aU-sdy" id="FYe-KW-SvU"/>
+                        <outlet property="buttonSegueVC" destination="FBj-fA-gvj" id="8Uv-kP-zG7"/>
+                        <outlet property="imageViewTooDooLogo" destination="Wf5-D0-d4Y" id="pwN-QE-H62"/>
+                        <segue destination="COO-zN-ltP" kind="show" identifier="components" id="GvZ-zd-otO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.2" y="138.98050974512745"/>
+        </scene>
+        <!--Components-->
+        <scene sceneID="SR0-pI-pKi">
+            <objects>
+                <viewController id="COO-zN-ltP" customClass="ComponentsController" customModule="iOSDevDive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sch-wV-Xyb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.0" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bqY-FU-8Dt"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Components" largeTitleDisplayMode="always" id="3DW-dM-Jqc">
+                        <barButtonItem key="backBarButtonItem" title="Voltar" id="0oA-A6-fAx"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IvW-KV-04P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dl1-wQ-dLs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Dm-un-kdF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OdR-gp-dtQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mYh-IN-SIB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rKg-y1-PXB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TooDooMarca" width="255" height="55"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="GvZ-zd-otO"/>
+    </inferredMetricsTieBreakers>
+</document>
