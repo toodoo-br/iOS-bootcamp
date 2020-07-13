@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AboutTitle</key>
+	<string>About iOS Dev Dive</string>
+	<key>AboutMessage</key>
+	<string>iOS Dev Dive V1.0. Available in https://github.com/TooDoo</string>
+</dict>
+</plist>
