@@ -9,7 +9,7 @@ Para melhor entendimento, futuramente teremos vídeos e material de apoio explic
 
 ![](https://secure.gravatar.com/avatar/1b1f930706886ee3a994d8a04fd8efdb?s=128)
 
-*Lorem ipsum dolor sit amet. Ab temporibus repellat id nulla nihil eum dolore doloremque. Sed voluptatum culpa a quaerat quia 33 quod nihil. Aut numquam obcaecati qui obcaecati totam ut nesciunt nisi hic velit ipsam ut sequi nulla sit recusandae quia*
+*Desenvolvedor de software apaixonado por tecnologia. Bacharel em Ciência da computação pela Universidade Federal de Itajubá. Atua com desenvolvimento mobile iOS. Já atuou com dev para Android, Angular, NodeJS, Java, Python dentre outras tecnologias. Praticante de Jiu Jitsu e Dj nas horas vagas.*
 
 [Instagram](https://www.instagram.com/paulo.ceravolo) / [GitHub](https//github.com/xonho)
 
