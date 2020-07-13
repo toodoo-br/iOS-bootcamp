@@ -28,8 +28,11 @@ class MainViewController: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: true)
         }
    
-    @IBAction func buttonPressed(_ sender: Any) {
-        print("Performing segue to Components")
+   
+    @IBAction func welcomePressed(_ sender: Any) {
+         let alert = UIAlertController(title: "iOS DevDive", message: "iOS DevDive. Avaliable in https://github.com/toodoo-br/iOS-bootcamp/", preferredStyle: .alert)
+               alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+               self.present(alert, animated: true)
     }
     
     
