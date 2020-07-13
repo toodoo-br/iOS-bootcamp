@@ -2,10 +2,10 @@
 
 ## O que é esse iOS Dive?
 Aplicativo desenvolvido para servir como base de estudo para programadores iOS, provenientes de outras linguagens e ambientes.
-Para melhor entendimento, futuramente teremos vídeos explicando cada implementação e os conceitos abordados em cada branch.
+Para melhor entendimento, futuramente teremos vídeos e material de apoio explicando cada implementação e os conceitos abordados em cada branch.
 
 ## Autores do iOS Dive
-### Paulo Antonio Cerávolo
+### Paulo Antonio Cerávolo - *iOS Developer  TooDoo*
 
 ![](https://secure.gravatar.com/avatar/1b1f930706886ee3a994d8a04fd8efdb?s=128)
 
@@ -36,7 +36,7 @@ Achou um problema, erro ou está com dúvida na implementação? Entre em contat
 
 
 ## Branches e progresso
-O aplicativo é dividido em Branches, cada branch abordará conceitos e implementações
+O aplicativo é dividido em Projetos, abordando conceitos e implementações
 
 ### Master
 Contém o ReadMe Atualizado e outros assets e informações necessárias
@@ -53,4 +53,4 @@ Contém o básico de navegação entre telas utilizando Segues.
 Será apresentado o uso de IBOutlets e IBActions além da navegação utilizando Segues
 
 ### 03 - UIView
-Contém os componentes de UI, como botões, labels, text views e etc
+Contém os componentes de UI de texto, controle e imagem
