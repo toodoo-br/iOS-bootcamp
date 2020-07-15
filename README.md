@@ -38,9 +38,6 @@ Achou um problema, erro ou está com dúvida na implementação? Entre em contat
 ## Branches e progresso
 O aplicativo é dividido em Projetos, abordando conceitos e implementações
 
-### Master
-Contém o ReadMe Atualizado e outros assets e informações necessárias
-
 ### 00 - Swift
 Contém a sintaxe e uma explicação semântica sobre a linguagem Swift, que servirá de base para o DevDive em iOS.
 
@@ -54,3 +51,35 @@ Será apresentado o uso de IBOutlets e IBActions além da navegação utilizando
 
 ### 03 - UIView
 Contém os componentes de UI de texto, controle e imagem
+
+### 04 - Layouts
+
+### 05 - DelegateProtocolsLifeCycle
+
+### 06 - BasicAnimations
+
+### 07 - Table
+
+### 08 - Navigation
+
+### 09 - Tabs
+
+### 10 - Pages
+
+### 11 - Networking
+
+### 12 - Sensors
+
+### 13 - TouchEvents
+
+### 14 - CoreData
+
+### 15 - Arquitecture
+
+### 16 - Firebase
+
+### 17 - CoreML
+
+### 18 - ARKit2
+
+### 19 - SwiftAndObjC

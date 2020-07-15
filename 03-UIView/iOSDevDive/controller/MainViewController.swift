@@ -31,10 +31,20 @@ class MainViewController: UIViewController {
     }
 
     func initialize(){
-        initializeMessages()
         self.animated = true
-        
+        initializeMessages()
+        customButtons()
     }
+    
+    func customButtons(){
+        //Customize TextButton
+        self.buttonTextStuff.backgroundColor = UIColor(red: 0.4, green: 1.0, blue: 0.2, alpha: 0.5)
+        self.buttonTextStuff.layer.cornerRadius = 5
+        self.buttonTextStuff.setTitleColor(.black, for: .normal)
+        self.buttonTextStuff.titleEdgeInsets = UIEdgeInsets(top: 10,left: 10,bottom: 10,right: 10)
+   
+    }
+    
     func initializeMessages() {
         self.messages = Utils.getPlist(withName: "messages")!
         if(self.messages != nil){
