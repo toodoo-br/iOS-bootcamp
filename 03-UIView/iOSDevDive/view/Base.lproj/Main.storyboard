@@ -37,9 +37,8 @@
                                     <action selector="buttonAbout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXH-V6-BZg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Srj-lI-Qa3">
-                                <rect key="frame" x="150.5" y="213" width="74" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Srj-lI-Qa3">
+                                <rect key="frame" x="60" y="213" width="255" height="34"/>
                                 <state key="normal" title="Text Stuff">
                                     <color key="titleColor" red="0.91764705879999997" green="0.0" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -48,7 +47,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPd-Sj-tcW">
-                                <rect key="frame" x="149.5" y="278" width="76" height="30"/>
+                                <rect key="frame" x="149.5" y="279" width="76" height="30"/>
                                 <state key="normal" title="ImageStuff">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -57,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dP2-ao-vTJ">
-                                <rect key="frame" x="143.5" y="340" width="88" height="30"/>
+                                <rect key="frame" x="143.5" y="341" width="88" height="30"/>
                                 <state key="normal" title="Control Stuff">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -82,9 +81,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.035294117649999998" green="0.054901960780000002" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Srj-lI-Qa3" secondAttribute="trailing" constant="60" id="2Li-kf-3mB"/>
                             <constraint firstItem="Srj-lI-Qa3" firstAttribute="top" secondItem="Wf5-D0-d4Y" secondAttribute="bottom" constant="64" id="8T2-Pu-Mgi"/>
+                            <constraint firstItem="Srj-lI-Qa3" firstAttribute="top" secondItem="Wf5-D0-d4Y" secondAttribute="bottom" constant="64" id="CJs-Zm-2bl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xl2-Gq-YwA" secondAttribute="bottom" constant="29" id="Fft-D2-1de"/>
                             <constraint firstItem="Wf5-D0-d4Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="HdH-0n-w9v"/>
+                            <constraint firstItem="Srj-lI-Qa3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="TgP-sL-shT"/>
                             <constraint firstItem="Srj-lI-Qa3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UPd-wP-Egq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wf5-D0-d4Y" secondAttribute="trailing" constant="60" id="VNU-9A-KuN"/>
                             <constraint firstItem="dP2-ao-vTJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W0T-Ch-5b9"/>
@@ -153,7 +155,6 @@
         <!--Text-->
         <scene sceneID="S1p-wj-T8Z">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ppu-kx-g1f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="NeG-7E-U0T" customClass="TextComponentsViewController" customModule="iOSDevDive" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K7k-n8-j21">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -163,6 +164,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Text" id="Edx-rr-MgA"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppu-kx-g1f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1945" y="-79"/>
         </scene>
