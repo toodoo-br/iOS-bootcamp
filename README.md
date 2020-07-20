@@ -54,32 +54,35 @@ Contém os componentes de UI de texto, controle e imagem
 
 ### 04 - Layouts
 
-### 05 - DelegateProtocolsLifeCycle
+### 05 - LifeCycle
+Mostra como ciclo de vida de uma ViewController
 
-### 06 - BasicAnimations
+### 06 - DelegateProtocols
 
-### 07 - Table
+### 07 - BasicAnimations
 
-### 08 - Navigation
+### 08 - Table
 
-### 09 - Tabs
+### 09 - Navigation
 
-### 10 - Pages
+### 19 - Tabs
 
-### 11 - Networking
+### 11 - Pages
 
-### 12 - Sensors
+### 12 - Networking
 
-### 13 - TouchEvents
+### 14 - Sensors
 
-### 14 - CoreData
+### 15 - TouchEvents
 
-### 15 - Arquitecture
+### 16 - CoreData
 
-### 16 - Firebase
+### 16 - Arquitecture
 
-### 17 - CoreML
+### 17 - Firebase
 
-### 18 - ARKit2
+### 18 - CoreML
 
-### 19 - SwiftAndObjC
+### 19 - ARKit2
+
+### 20 - SwiftAndObjC
