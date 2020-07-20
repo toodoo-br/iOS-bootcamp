@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Dm-un-kdF">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigator-->
+        <scene sceneID="JMK-yb-T7H">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Navigator" id="rJE-Eo-LGQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Jfe-PC-cxa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QgU-PL-M55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="-184"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="iOSDevDive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TooDooMarca" translatesAutoresizingMaskIntoConstraints="NO" id="Wf5-D0-d4Y">
+                                <rect key="frame" x="60" y="94" width="255" height="55"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xl2-Gq-YwA">
+                                <rect key="frame" x="166.5" y="608" width="42" height="30"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAbout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXH-V6-BZg"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9PV-Ot-lhP">
+                                <rect key="frame" x="16" y="181" width="343" height="373"/>
+                                <color key="backgroundColor" white="1" alpha="0.1049871575" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="6V8-uX-DaB">
+                                <rect key="frame" x="16" y="570" width="343" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g89-nP-CMr">
+                                        <rect key="frame" x="0.0" y="0.0" width="163.5" height="30"/>
+                                        <state key="normal" title="Lifecycle Image">
+                                            <color key="titleColor" red="0.91764705879999997" green="0.0" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Sjh-Bd-Z7M" kind="show" id="CgK-IS-Za9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6O-cz-4RR">
+                                        <rect key="frame" x="179.5" y="0.0" width="163.5" height="30"/>
+                                        <state key="normal" title="Clear">
+                                            <color key="titleColor" red="0.0" green="0.91764705879999997" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m2T-dZ-umP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.035294117649999998" green="0.054901960780000002" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9PV-Ot-lhP" secondAttribute="trailing" constant="16" id="0Es-xR-rzq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xl2-Gq-YwA" secondAttribute="bottom" constant="29" id="Fft-D2-1de"/>
+                            <constraint firstItem="Wf5-D0-d4Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="HdH-0n-w9v"/>
+                            <constraint firstItem="9PV-Ot-lhP" firstAttribute="top" secondItem="Wf5-D0-d4Y" secondAttribute="bottom" constant="32" id="HrS-H6-06y"/>
+                            <constraint firstItem="9PV-Ot-lhP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="LNd-Yk-Fax"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6V8-uX-DaB" secondAttribute="trailing" constant="16" id="MaU-z7-5FR"/>
+                            <constraint firstItem="Xl2-Gq-YwA" firstAttribute="top" secondItem="6V8-uX-DaB" secondAttribute="bottom" constant="8" id="UMg-S3-mOj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wf5-D0-d4Y" secondAttribute="trailing" constant="60" id="VNU-9A-KuN"/>
+                            <constraint firstItem="6V8-uX-DaB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YFn-8F-aaW"/>
+                            <constraint firstItem="Xl2-Gq-YwA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cbJ-52-7Iz"/>
+                            <constraint firstItem="Wf5-D0-d4Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="hQD-L1-wkN"/>
+                            <constraint firstItem="6V8-uX-DaB" firstAttribute="top" secondItem="9PV-Ot-lhP" secondAttribute="bottom" constant="16" id="jEw-97-mnf"/>
+                            <constraint firstItem="9PV-Ot-lhP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jgD-EK-xsD"/>
+                            <constraint firstItem="6V8-uX-DaB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pSU-8k-w8u"/>
+                            <constraint firstItem="Wf5-D0-d4Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qEq-Pb-cRC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="qjG-ls-arx"/>
+                    <connections>
+                        <outlet property="buttonAbout" destination="Xl2-Gq-YwA" id="Xnx-lH-XyW"/>
+                        <outlet property="buttonClearText" destination="j6O-cz-4RR" id="I0f-QL-Pdm"/>
+                        <outlet property="buttonLCImage" destination="g89-nP-CMr" id="tod-PK-tlY"/>
+                        <outlet property="imageViewTooDooLogo" destination="Wf5-D0-d4Y" id="pwN-QE-H62"/>
+                        <outlet property="textviewLifecycle" destination="9PV-Ot-lhP" id="QXy-D2-QNW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.2" y="138.98050974512745"/>
+        </scene>
+        <!--Lifecycle Picture-->
+        <scene sceneID="4P8-Tn-p5X">
+            <objects>
+                <viewController id="Sjh-Bd-Z7M" customClass="ImageLCViewController" customModule="iOSDevDive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sbA-Z5-Sqq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lifecycleApple" translatesAutoresizingMaskIntoConstraints="NO" id="e5b-km-wKm">
+                                <rect key="frame" x="16" y="110" width="343" height="525"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.035294117649999998" green="0.054901960780000002" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ekr-Zi-i82" firstAttribute="bottom" secondItem="e5b-km-wKm" secondAttribute="bottom" constant="32" id="57w-ut-nJI"/>
+                            <constraint firstItem="ekr-Zi-i82" firstAttribute="trailing" secondItem="e5b-km-wKm" secondAttribute="trailing" constant="16" id="CHx-y1-X5K"/>
+                            <constraint firstItem="e5b-km-wKm" firstAttribute="top" secondItem="ekr-Zi-i82" secondAttribute="top" constant="32" id="lGs-xB-Hkk"/>
+                            <constraint firstItem="e5b-km-wKm" firstAttribute="leading" secondItem="ekr-Zi-i82" secondAttribute="leading" constant="16" id="n2V-Vp-kGe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ekr-Zi-i82"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lifecycle Picture" prompt="Copyright: Apple" id="Ksx-wK-9Vv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJX-ps-tUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1840.8" y="139.880059970015"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dl1-wQ-dLs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Dm-un-kdF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OdR-gp-dtQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mYh-IN-SIB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rKg-y1-PXB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TooDooMarca" width="255" height="55"/>
+        <image name="lifecycleApple" width="350" height="331.5"/>
+    </resources>
+</document>
