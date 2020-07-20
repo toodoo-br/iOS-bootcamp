@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewDidDisapearTitle</key>
+	<string>View Did Disapear!</string>
+	<key>ViewDidDisapearMessage</key>
+	<string>Some messages won&apos;t be visible due lifecycle events of dissapear.All lifecycle messages are also dislayed in console.</string>
+	<key>AboutTitle</key>
+	<string>About iOS Dev Dive</string>
+	<key>AboutMessage</key>
+	<string>iOS Dev Dive V1.0. Available in https://github.com/toodoo-br</string>
+</dict>
+</plist>
