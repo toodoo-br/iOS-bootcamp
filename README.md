@@ -38,6 +38,9 @@ Achou um problema, erro ou está com dúvida na implementação? Entre em contat
 ## Branches e progresso
 O aplicativo é dividido em Projetos, abordando conceitos e implementações
 
+### Presentation
+Onde o material texto com os temas fica acondicionado
+
 ### 00 - Swift
 Contém a sintaxe e uma explicação semântica sobre a linguagem Swift, que servirá de base para o DevDive em iOS.
 
@@ -55,7 +58,7 @@ Contém os componentes de UI de texto, controle e imagem
 ### 04 - Layouts
 
 ### 05 - LifeCycle
-Mostra como ciclo de vida de uma ViewController
+Mostra como funciona ciclo de vida de uma ViewController
 
 ### 06 - DelegateProtocols
 
