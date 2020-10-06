@@ -68,7 +68,7 @@ Mostra como funciona ciclo de vida de uma ViewController
 
 ### 09 - Navigation
 
-### 19 - Tabs
+### 10 - Tabs
 
 ### 11 - Pages
 
