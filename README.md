@@ -5,7 +5,7 @@ Aplicativo desenvolvido para servir como base de estudo para programadores iOS, 
 Para melhor entendimento, futuramente teremos vídeos e material de apoio explicando cada implementação e os conceitos abordados em cada branch.
 
 ## Autores do iOS Dive
-### Paulo Antonio Cerávolo - *iOS Developer  TooDoo*
+### Paulo Antonio Cerávolo Rodrigues - *iOS Developer  TooDoo*
 
 ![](https://secure.gravatar.com/avatar/1b1f930706886ee3a994d8a04fd8efdb?s=128)
 
@@ -13,7 +13,7 @@ Para melhor entendimento, futuramente teremos vídeos e material de apoio explic
 
 [Instagram](https://www.instagram.com/paulo.ceravolo) / [GitHub](https//github.com/xonho)
 
-[Me mande um e-mail em paulo.ceravolo@toodoo.com.br](mailto:paulo.ceravolo@toodoo.com.br)
+[Me mande um e-mail em paulo.rodrigues@toodoo.com.br](mailto:paulo.rodrigues@toodoo.com.br)
 
 
 ## Quem ou o que é a TooDoo?
